@@ -1,0 +1,144 @@
+@import url(./main.css);
+@import url(./footer.css);
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+   
+}
+body{
+    font-family: "Poppins", sans-serif !important;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    top:5px;
+    position: relative;
+    display: flex;
+    margin-left: 140px;
+}
+#fixed_div{
+    top:0%;
+    height:100px;
+    /* border:1px solid black; */
+    width:100%;
+    background-color: white;
+    box-shadow: 0px 0px 2px ;
+    position: fixed;
+    z-index:99999;
+}
+#anchartags{
+display: flex;
+  /* border:1px solid red; */
+  width:860px;
+  position: relative;
+  margin-left:260px;
+  margin-top:40px;
+padding-left: 20px;
+gap:35px;
+}
+#anchartags a:after{
+   
+    content:"";
+    position: absolute;
+    /* background-color: brn; */
+    background-color:black;
+    width:0;
+    height:3px;
+     left:1px;
+     top:2px;
+    margin-top:20px;
+    transition: 0.5s;
+
+}
+#anchartags a:hover:after{
+    width:100%;
+}
+#anchartags a{
+   
+    color:black; 
+    font-size: 16px;
+    position: relative;
+}
+#downlard{
+    width:180px;
+    height:50px;
+    font-size: 16px;
+    margin-top:-20px;
+    background-color: black;
+    border: 1px solid  black;
+    color: white;     
+    /* ------------first  firstdown  seconddown   seccond */
+    border-radius:25px 25px 0px 25px;
+}
+#homepage{
+    color:black;
+    font-weight:bold;
+    height:40px;
+}
+
+#maindivtag{
+    top:100px;
+    position: relative;
+}
+#innerrdiv{
+    display: flex;
+  
+}
+#innerrdiv img{
+    margin-top:-630px;
+    margin-left:560px;
+height:540px;
+width:800px;
+z-index:2;
+}
+#inner{
+ 
+    background-color: #F9C935 ;
+    margin-left:550px;
+    width: 1150px;
+    height: 550px;
+    z-index: -1;
+    position: relative;
+    border-radius: 507.5px;
+}
+#divtag{
+    top:10px;
+    position: relative;
+    margin-top: -400px;
+    margin-left:50px;
+}
+#divtag h1{
+    font-size:46px;
+    font-weight: 400;
+    letter-spacing:2px;
+}
+#divtag p{
+
+    line-height:27px;
+    font-size:18px;
+   
+}
+#btn1{
+    width:180px;
+    height:50px;
+    font-size: 16px;
+    margin-top:10px;
+    background-color: #F9C935 ;
+    border: 1px solid #F9C935;
+    color: white; 
+    border-radius:25px 25px 25px 0px;
+}
+#btn2{
+    width:180px;
+    height:50px;
+    font-size: 16px;
+    margin-top:10px;
+    background-color: black;
+    border: 1px solid  black;
+    color: white; 
+    border-radius:25px 25px 0px 25px;
+}
